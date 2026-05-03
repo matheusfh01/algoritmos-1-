@@ -99,13 +99,13 @@
 # print(c)
 
 # 15 Rotação 90°: Crie um algoritmo que rotaciona uma matriz quadrada n x n em 90 graus no sentido horário (sem usar bibliotecas prontas como NumPy)
-import numpy as np
-x = np.random.randint(0,100, (3,3))
-n = len(x)
-print(x)
-for i in range(n):
-    for j in range(i, n):
-        x[i][j] , x[j][i] = x[j][i], x[i][j]
-for i in range(n):
-    x[i] = x[i][::-1]
-print(x)
+# import numpy as np
+# x = np.random.randint(0,100, (3,3))
+# n = len(x)
+# print(x)
+# for i in range(n):
+#     for j in range(i, n):
+#         x[i][j] , x[j][i] = x[j][i], x[i][j]
+# for i in range(n):
+#     x[i] = x[i][::-1]
+# print(x)
