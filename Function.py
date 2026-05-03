@@ -174,5 +174,6 @@
 #opp = input("insira qual operação ira ser feita(+, -, * ou /): ")
 
 ##30
-def pd(*args, **kwargs):
-    return args, kwargs
+# def pd(*args, **kwargs):
+    # return args, kwargs
+  
